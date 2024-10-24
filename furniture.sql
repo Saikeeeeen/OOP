@@ -54,8 +54,8 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`ID`, `Name`, `salary`, `commision`, `Position`) VALUES
-(1, 'Ronald', '34.00', '0.99', 'Manager'),
-(2, 'Carl', '150.00', '0.99', 'SalesPerson');
+(1, 'Ken', '64.00', '0.99', 'Manager'),
+(2, 'Neil', '150.00', '0.99', 'SalesPerson');
 
 -- --------------------------------------------------------
 
@@ -76,7 +76,7 @@ CREATE TABLE `furnituresample` (
 
 INSERT INTO `furnituresample` (`furID`, `Name`, `quantity`, `Price`) VALUES
 (1, 'Sofa', 5, '10500.99'),
-(2, 'table', 20, '8999.50');
+(2, 'Table', 20, '8999.50');
 
 -- --------------------------------------------------------
 
